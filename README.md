@@ -53,9 +53,7 @@ Run the first cell to install the required dependencies (pystac, stac-asset, ras
 
 Run the cells sequentially to download the Capella STAC data, preprocess the images, define the model, and begin training.
 
-Repository
-https://github.com/gabrieldanho9988-sys/SAR-Super-Resolution-Using-AI.git
 
 
 ## Repository
-Link to the notebook.
+https://github.com/gabrieldanho9988-sys/SAR-Super-Resolution-Using-AI.git

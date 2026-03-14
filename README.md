@@ -41,7 +41,8 @@ Baseline (Single Patch): PSNR: 23.79 dB | SSIM: 0.8427
 Improved VDSR (Dataset Patching & Splitting): PSNR: 24.51 dB | SSIM: 0.8643
 
 (Note: Data augmentation using rotations was tested but ultimately degraded performance due to the directional nature of SAR shadows. The un-augmented patched dataset provided the best metrics).
-
+**Visual Comparison:**
+![VDSR Super Resolution Results](<VDSR Output (AI Prediction).png>)
 ## Run the Code
 This project was developed and executed using Google Colab.
 

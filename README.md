@@ -46,4 +46,4 @@ This project utilizes the [Capella Space Open Data Catalog](https://capella-open
 
 **Author:** Gabriel Danho  
 **Course:** Deep Learning  
-**Instructor:** Amit Kumar Mishra
+**Instructor:**Professor. Amit Kumar Mishra

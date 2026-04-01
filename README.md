@@ -4,7 +4,6 @@ An advanced Deep Learning pipeline designed to enhance low-resolution Synthetic 
 
 **Author:** Gabriel Danho  
 **Course:** Deep Learning  
-**Instructor:** Professor Amit Kumar Mishra  
 
 ---
 

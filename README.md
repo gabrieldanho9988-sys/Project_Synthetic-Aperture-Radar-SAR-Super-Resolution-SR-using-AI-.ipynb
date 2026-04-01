@@ -13,6 +13,15 @@ SAR images are critical for Earth Observation because they can capture high-reso
 
 This project tackles the challenge of algorithmically upscaling low-resolution SAR imagery. By navigating the strict physical laws of radar backscatter (speckle interference and directional shadowing), this pipeline transitions from standard Convolutional Neural Networks (ResNet) to a fully optimized, physics-aware SRGAN.
 
+## 📡 Understanding the Physics of SAR
+*Synthetic Aperture Radar involves complex microwave backscatter, phase interference, and orbital mechanics. Before diving into the AI pipeline, these two excellent videos provide the perfect visual prerequisite for understanding the unique physics of our dataset.*
+
+**1. How Radar Satellites See through Clouds (Max Lenormand)** *An incredible animated breakdown of how the "synthetic aperture" is created and how radar phase and image formation actually work. It perfectly visualizes the physics behind the speckle our AI is trying to reconstruct.* [![SAR Animation](https://img.youtube.com/vi/zMsCyEAOrh0/maxresdefault.jpg)](https://www.youtube.com/watch?v=zMsCyEAOrh0)
+
+**2. Satellites Use 'This Weird Trick' To See More (Scott Manley)** *A deep dive into the orbital mechanics and radar physics used specifically by **Capella Space**—the exact provider of the commercial satellite dataset dynamically streamed and utilized throughout this project.* [![Scott Manley SAR](https://img.youtube.com/vi/u2bUKEi9It4/maxresdefault.jpg)](https://www.youtube.com/watch?v=u2bUKEi9It4)
+
+---
+
 ## 🚀 Key Features & Methodology
 
 * **Cloud-Native Data Engineering:** Automated ingestion of raw Single Look Complex (SLC) and Geocoded (GEO) radar data using the **STAC API** (SpatioTemporal Asset Catalog), safely extracting hundreds of 256x256 training patches without overwhelming system RAM.

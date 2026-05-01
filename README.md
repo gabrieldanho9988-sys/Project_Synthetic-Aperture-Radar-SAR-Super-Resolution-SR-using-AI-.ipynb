@@ -7,6 +7,7 @@ An advanced Deep Learning pipeline designed to enhance low-resolution Synthetic 
 **Instructor:** Professor Amit Kumar Mishra  
 
 ---
+📄 **[Read the full IEEE-format project report (PDF)](./SAR_Super_Resolution_Report_Gabriel_Danho.pdf)**
 
 ## 📖 Project Overview
 SAR images are critical for Earth Observation because they can capture high-resolution data through dense cloud cover and at night. However, high-resolution SAR data is computationally expensive and difficult to acquire. 
